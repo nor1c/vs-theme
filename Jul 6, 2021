@@ -1,0 +1,97 @@
+{
+    // editor
+    "editor.fontSize": 16,
+    // "editor.fontFamily": "Roboto Mono",
+    // "editor.fontFamily": "Cascadia Mono",
+    "editor.fontFamily": "Dank Mono",
+    "editor.fontWeight": "400",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "editor.lineHeight": 28,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+        "comments": "#727272"
+    },
+    "editor.cursorWidth": 10,
+    "editor.cursorStyle": "line",
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll": true
+    // },
+    // terminal
+    // "terminal.integrated.fontFamily": "Dank Mono",
+    "terminal.integrated.fontFamily": "Roboto Mono",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.rendererType": "dom",
+    // workbench
+    // "workbench.colorTheme": "GitHub Dark",
+    "workbench.colorTheme": "Seth",
+    // "workbench.colorTheme": "Atom Material Theme",
+    // "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        // light theme
+        // "statusBar.background": "#444444",
+        // "sideBar.background": "#ebebeb",
+        // "editor.background": "#ebebeb",
+        // "tab.activeBackground": "#dbdbdb",
+        // "terminal.background": "#dbdbdb",
+
+        // dark theme
+        "statusBar.background": "#222222",
+        "sideBar.background": "#222222",
+        "editor.background": "#222222",
+        "tab.activeBackground": "#222222",
+        "terminal.background": "#222222",
+    },
+    // explorer
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    // window
+    "window.zoomLevel": -1.1,
+    "atomKeymap.promptV3Features": true,
+    "materialTheme.fixIconsRunning": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "extensions.ignoreRecommendations": true,
+    "sync.gist": "61403c832829d930f2be7d40a4a43ca5",
+    "java.semanticHighlighting.enabled": true,
+    "debug.openDebug": "openOnDebugBreak",
+    // javascruot
+    "javascript.validate.enable": false,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    // dart
+    "[dart]": {
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "dart.closingLabels": false,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "workbench.tree.renderIndentGuides": "always",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "terminal.integrated.gpuAcceleration": "off",
+    "vscode_vibrancy.opacity": -100,
+    "vscode_vibrancy.theme": "Dark (Only Subbar)",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "liveServer.settings.donotShowInfoMsg": true,
+}
