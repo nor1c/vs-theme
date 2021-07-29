@@ -1,0 +1,125 @@
+{
+    // editor
+    "editor.fontSize": 14,
+    // "editor.fontFamily": "Jetbrains Mono",
+    // "editor.fontFamily": "Dank Mono",
+    // "editor.fontFamily": "Roboto Mono",
+    // "editor.fontFamily": "Cascadia Mono SemiLight",
+    "editor.fontFamily": "Liberation Mono",
+    // "editor.fontFamily": "Cascadia Code SemiLight",
+    // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    "editor.fontWeight": "400",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "editor.lineHeight": 36,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+        "comments": "#5e5e5e"
+    },
+    // "editor.cursorWidth": 10,
+    "editor.cursorStyle": "block",
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll": true
+    // },
+
+    // terminal
+    "terminal.integrated.fontFamily": "Liberation Mono",
+    // "terminal.integrated.fontFamily": "Dank Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.gpuAcceleration": "off",
+
+    // workbench
+    "workbench.colorTheme": "Seth",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        // light theme
+        // "statusBar.background": "#444444",
+        // "sideBar.background": "#ebebeb",
+        // "editor.background": "#ebebeb",
+        // "tab.activeBackground": "#dbdbdb",
+        // "terminal.background": "#dbdbdb",
+
+        // gray theme
+        "statusBar.background": "#24262b",
+        "sideBar.background": "#24262b",
+        "editor.background": "#24262b",
+        "tab.activeBackground": "#24262b",
+        "terminal.background": "#24262b",
+
+        // dark theme
+        // "statusBar.background": "#222222",
+        // "sideBar.background": "#222222",
+        // "editor.background": "#222222",
+        // "tab.activeBackground": "#222222",
+        // "terminal.background": "#222222",
+    },
+    // explorer
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "atomKeymap.promptV3Features": true,
+    "materialTheme.fixIconsRunning": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "extensions.ignoreRecommendations": true,
+    "sync.gist": "61403c832829d930f2be7d40a4a43ca5",
+    "java.semanticHighlighting.enabled": true,
+    "debug.openDebug": "openOnDebugBreak",
+
+    // javascrypt
+    "javascript.validate.enable": false,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+
+    "[javascript]": {
+        "editor.renderIndentGuides": false,
+        "editor.tabSize": 2
+    },
+
+    "[typescript]": {
+        "editor.renderIndentGuides": false,
+        "editor.tabSize": 2
+    },
+
+    // dart
+    "[dart]": {
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+    },
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "dart.closingLabels": false,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+
+    "files.associations": {
+        "*.md": "mdx"
+    },
+
+    "vscode_vibrancy.opacity": -100,
+    "vscode_vibrancy.theme": "Dark (Only Subbar)",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": -0.8,
+    "tabnine.experimentalAutoImports": true,
+}
