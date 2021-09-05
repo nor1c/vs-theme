@@ -1,0 +1,160 @@
+{
+    // anime background
+    // "background.customImages":[
+    //     "https://user-images.githubusercontent.com/24371189/47023104-85336080-d191-11e8-957f-b4ac3f8a24c1.png",
+    //     "https://user-images.githubusercontent.com/9987486/40583670-d6478c9e-61c5-11e8-9551-6b55eacc7b8d.png"
+    // ],
+    // "background.style": {
+    //     "content": "''",
+    //     "pointer-events": "none",
+    //     "position": "absolute",
+    //     "right": "0",
+    //     "bottom": "0",
+    //     "width": "100%", // 100%
+    //     "height": "100%", // 100%
+    //     "z-index": "9999",
+    //     "background-size": "contain",
+    //     "opacity": 0.1,
+    // },
+    // "background.useDefault": false,
+    
+    "commentTranslate.targetLanguage": "id",
+
+    // editor
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Liberation Mono",
+    // "editor.fontFamily": "DM Mono",
+    // "editor.fontFamily": "DM Sans",
+    // "editor.fontFamily": "Consolas",
+    // "editor.fontFamily": "Jetbrains Mono",
+    // "editor.fontFamily": "Dank Mono",
+    // "editor.fontFamily": "Roboto Mono",
+    // "editor.fontFamily": "Cascadia Mono SemiLight",
+    // "editor.fontFamily": "Cascadia Code SemiLight",
+    // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    "editor.fontWeight": "400",
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "editor.lineHeight": 36,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+        "comments": "#7b7b7b"
+    },
+    // "editor.cursorWidth": 10,
+    "editor.cursorStyle": "block",
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll": true
+    // },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.renderIndentGuides": true,
+    "editor.highlightActiveIndentGuide": true,
+
+    "explorer.compactFolders": false,
+
+    // terminal
+    "terminal.integrated.fontFamily": "Liberation Mono",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.gpuAcceleration": "off",
+
+    // workbench
+    "workbench.colorTheme": "Seth",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        // dark theme
+        "editor.background": "#1d1d1d",
+        "terminal.background": "#222222",
+        "statusBar.background": "#222222",
+        "sideBar.background": "#222222",
+        "tab.activeBackground": "#222222",
+        "tree.indentGuidesStroke": "#222222",
+        "editorIndentGuide.activeBackground": "#ebebeb",
+
+        // light theme
+        // "statusBar.background": "#444444",
+        // "sideBar.background": "#ebebeb",
+        // "editor.background": "#ebebeb",
+        // "tab.activeBackground": "#dbdbdb",
+        // "terminal.background": "#dbdbdb",
+
+        // gray theme
+        // "statusBar.background": "#24262b",
+        // "sideBar.background": "#24262b",
+        // "editor.background": "#24262b",
+        // "tab.activeBackground": "#24262b",
+        // "terminal.background": "#24262b",
+    },
+
+    // explorer
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "atomKeymap.promptV3Features": true,
+    "materialTheme.fixIconsRunning": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "extensions.ignoreRecommendations": true,
+    "sync.gist": "61403c832829d930f2be7d40a4a43ca5",
+    "java.semanticHighlighting.enabled": true,
+    "debug.openDebug": "openOnDebugBreak",
+
+    // javascrypt
+    "javascript.validate.enable": false,
+    "[vue]": {
+        // "editor.defaultFormatter": "octref.vetur"
+    },
+
+    "[javascript]": {
+        "editor.renderIndentGuides": false,
+        "editor.tabSize": 2
+    },
+
+    "[typescript]": {
+        "editor.renderIndentGuides": false,
+        "editor.tabSize": 2
+    },
+
+    // dart
+    "[dart]": {
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+    },
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "dart.closingLabels": false,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+
+    "files.associations": {
+        "*.md": "mdx"
+    },
+
+    "vscode_vibrancy.opacity": -100,
+    "vscode_vibrancy.theme": "Dark (Only Subbar)",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "tabnine.experimentalAutoImports": true,
+    "github.copilot.autocomplete.enable": true,
+    "window.zoomLevel": -1,
+    "terminal.integrated.tabs.location": "left",
+}
